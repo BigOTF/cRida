@@ -4,7 +4,7 @@ import AboutUsText from './AboutUsText'
 
 const AboutUs = () => {
   return (
-    <div className='md:w-[1340px] md:h-[484px] flex flex-col md:flex-row md:items-center'>
+    <div className='md:w-[1340px] md:h-[484px] flex flex-col md:flex-row justify-between'>
         
         <div className='w-[368px] h-[340px] p-[8px] ml-[30px] flex flex-col justify-center gap-[16px] md:hidden'>
             <div className='flex items-center gap-[8px]'>
