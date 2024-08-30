@@ -67,7 +67,7 @@ const ChooseUsSideDetails = () => {
 
         </div>
 
-        <div className='w-[322px] ml-[53px] pt-[50px] flex flex-col justify-between md:hidden'>
+        <div className='w-[322px] ml-[53px] pt-[50px] flex flex-col justify-between gap-[16px] md:hidden'>
 
             <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
