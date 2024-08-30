@@ -1,6 +1,7 @@
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import SubHero from './components/SubHero/SubHero'
+import AboutUs from './components/AboutUs/AboutUs'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <SubHero />
+      <AboutUs />
     </div>
   )
 }
