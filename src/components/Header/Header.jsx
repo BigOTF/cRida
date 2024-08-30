@@ -12,7 +12,7 @@ const Header = () => {
     }
     
   return (
-    <header className='md:h-[83px] bg-white'>
+    <header className='md:h-[83px] bg-white md:w-[1440px] w-[428px]'>
 
         {/* THIS FUNCTION WORKS ON LARGE SCREEN */}
         <section className='w-[1240px] h-[44px] md:ml-[115px] mt-[20px] md:flex justify-between items-center hidden'>
@@ -36,8 +36,6 @@ const Header = () => {
             <Nav toggleNav={toggleNav}/>
 
         </section>
-
-
 
     </header>
   )

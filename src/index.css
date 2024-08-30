@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heroSide1Background {
+    background-image: url('../public/heroSide1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heroSide2Background {
+    background-image: url('../public/heroSide2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
