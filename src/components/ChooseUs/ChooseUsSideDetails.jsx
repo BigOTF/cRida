@@ -7,7 +7,7 @@ import { PiSeatbeltFill } from "react-icons/pi";
 
 const ChooseUsSideDetails = () => {
   return (
-    <div className='w-[322px] md:w-[715px] md:h-[462px] ml-[53px] md:ml-0 flex flex-col md:flex-row justify-between border'>
+    <div className='w-[322px] md:w-[715px] md:h-[462px] ml-[53px] md:ml-0 flex flex-col md:flex-row justify-between'>
 
         <div className='flex flex-col justify-between'>
             

@@ -1,5 +1,4 @@
 import React from 'react'
-import ChooseUsImage from '../../../public/ChooseUsImage.png'
 
 const ChooseUsSide = () => {
   return (
@@ -17,7 +16,7 @@ const ChooseUsSide = () => {
 
         <div className='w-[368px] h-[395px] md:w-[420px] md:h-[353px] relative'>
             <div className='w-[344px] h-[369px] md:w-[390px] md:h-[332px] chooseRadius bg-[#070125]'></div>
-            <img src={ChooseUsImage} alt='choose us image' className='w-[342px] h-[366px] md:w-[390px] md:h-[332px] rounded-[4px] absolute top-[15px] left-[20px] bg-cover bg-no-repeat' />
+            <div className='chooseUsBackground w-[342px] h-[366px] md:w-[390px] md:h-[332px] rounded-[4px] absolute top-[15px] left-[20px]'></div>
         </div>
 
     </div>
