@@ -4,9 +4,9 @@ import AboutUsText from './AboutUsText'
 
 const AboutUs = () => {
   return (
-    <div className='md:w-[1340px] md:h-[484px] pt-[50px] md:pt-0 flex flex-col md:flex-row justify-between bg-[#DEE7F5]'>
+    <div className='md:w-[1340px] md:h-[484px] w-[428px] pt-[50px] md:pt-0 flex flex-col md:flex-row justify-between bg-[#DEE7F5]'>
         
-      <div className='w-[368px] h-[340px] p-[8px] ml-[30px] flex flex-col justify-center gap-[16px] md:hidden'>
+      <div className='h-[340px] p-[8px] ml-[30px] flex flex-col justify-center gap-[16px] md:hidden'>
           <div className='flex items-center gap-[8px]'>
               <div className='w-[60px] border-[3px] border-[#BF5B12]'></div>
               <p className='text-[20px] leading-[27.28px] font-bold text-[#BF5B12]'>WHO WE ARE</p>
