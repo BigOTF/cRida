@@ -3,16 +3,18 @@ import Hero from './components/Hero/Hero'
 import SubHero from './components/SubHero/SubHero'
 import AboutUs from './components/AboutUs/AboutUs'
 import ChooseUs from './components/ChooseUs/ChooseUs'
+import Services from './components/OurServices/Services'
 
 function App() {
 
   return (
-    <div className='pb-[500px]'>
+    <div className='pb-[1000px] bg-[#DEE7F5]  md:w-[1440px] w-[428px]'>
       <Header />
       <Hero />
       <SubHero />
       <AboutUs />
       <ChooseUs />
+      <Services />
     </div>
   )
 }

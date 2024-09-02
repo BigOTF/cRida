@@ -26,7 +26,24 @@
     background-repeat: no-repeat;
 }
 
+.servicesBackground {
+    background-image: url('../public/servicesImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .chooseRadius {
     border-radius: 8px, 8px, 8px, 0px;
 }
 
+.servicesPadding {
+    padding: 8px, 0px, 8px, 0px;
+}
+
+.servicesMobilePadding {
+    padding: 0px, 0px, 16px, 0px
+}
+
+.servicesPadding2 {
+    padding: 0px, 8px, 0px, 8px
+}
