@@ -4,6 +4,7 @@ import SubHero from './components/SubHero/SubHero'
 import AboutUs from './components/AboutUs/AboutUs'
 import ChooseUs from './components/ChooseUs/ChooseUs'
 import Services from './components/OurServices/Services'
+import Explore from './components/Explore/Explore'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <AboutUs />
       <ChooseUs />
       <Services />
+      <Explore />
     </div>
   )
 }
