@@ -32,6 +32,12 @@
     background-repeat: no-repeat;
 }
 
+.afterExploreBackground {
+    background-image: url('../public/afterExploreImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .chooseRadius {
     border-radius: 8px, 8px, 8px, 0px;
 }

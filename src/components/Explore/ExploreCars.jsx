@@ -72,13 +72,13 @@ const ExploreCars = () => {
                         </div>
                     </div>
                 )
-            }).slice(0,3)
+            }).slice(0,6)
          
         )
     }
 
   return (
-    <div className='mt-[30px] md:mt-[30px] md:h-[1270px] flex flex-col md:flex-row justify-between'>
+    <div className='mt-[30px] md:mt-[30px] md:h-[1270px] flex flex-col gap-[16px] md:flex-row md:flex-wrap justify-between'>
         <CarProductDisplay />
     </div>
   )

@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs/AboutUs'
 import ChooseUs from './components/ChooseUs/ChooseUs'
 import Services from './components/OurServices/Services'
 import Explore from './components/Explore/Explore'
+import Show from './components/Show/Show'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <ChooseUs />
       <Services />
       <Explore />
+      <Show />
     </div>
   )
 }
