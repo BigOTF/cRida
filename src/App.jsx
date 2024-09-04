@@ -6,6 +6,7 @@ import ChooseUs from './components/ChooseUs/ChooseUs'
 import Services from './components/OurServices/Services'
 import Explore from './components/Explore/Explore'
 import Show from './components/Show/Show'
+import Subscribe from './components/Subscribe/Subscribe'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Services />
       <Explore />
       <Show />
+      <Subscribe />
     </div>
   )
 }
