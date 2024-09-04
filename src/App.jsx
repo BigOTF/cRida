@@ -7,6 +7,7 @@ import Services from './components/OurServices/Services'
 import Explore from './components/Explore/Explore'
 import Show from './components/Show/Show'
 import Subscribe from './components/Subscribe/Subscribe'
+import Testimonial from './components/Testimonial/Testimonial'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Explore />
       <Show />
       <Subscribe />
+      <Testimonial />
     </div>
   )
 }
