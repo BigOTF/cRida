@@ -1,10 +1,6 @@
 import React from 'react'
 import { FaPhone, FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
-import facebook from '../../../public/facebook.png'
-import instagram from '../../../public/instagram.png'
-import youtube from '../../../public/youtube.png'
-import linkedin from '../../../public/linkedin.png'
 
 const Footer = () => {
   return (
@@ -86,16 +82,16 @@ const Footer = () => {
 
             <div className='w-[152px] h-[32px] md:w-[172px] md:h-[40px] flex items-center justify-between'>
                 <div className='w-[32px] h-[32px] md:w-[40px] md:h-[40px] bg-[#DEE7F5] rounded-[50%] flex items-center justify-center'>
-                    <img src={facebook} alt='facebook logo' className='w-[18px] h-[18px]'/>
+                    <img src="/facebook.png" alt='facebook logo' className='w-[18px] h-[18px]'/>
                 </div>
                 <div className='w-[32px] h-[32px] md:w-[40px] md:h-[40px] bg-[#DEE7F5] rounded-[50%] flex items-center justify-center'>
-                    <img src={instagram} alt='instagram logo' className='w-[18px] h-[18px]'/>
+                    <img src="/instagram.png" alt='instagram logo' className='w-[18px] h-[18px]'/>
                 </div>
                 <div className='w-[32px] h-[32px] md:w-[40px] md:h-[40px] bg-[#DEE7F5] rounded-[50%] flex items-center justify-center'>
-                    <img src={youtube} alt='youtube logo' className='w-[18px] h-[18px]'/>
+                    <img src="/Youtube.png" alt='youtube logo' className='w-[18px] h-[18px]'/>
                 </div>
                 <div className='w-[32px] h-[32px] md:w-[40px] md:h-[40px] bg-[#DEE7F5] rounded-[50%] flex items-center justify-center'>
-                    <img src={linkedin} alt='linkedin logo' className='w-[18px] h-[18px]'/>
+                    <img src="/linkedin.png" alt='linkedin logo' className='w-[18px] h-[18px]'/>
                 </div>
             </div>
         </div>

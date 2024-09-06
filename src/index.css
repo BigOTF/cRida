@@ -3,43 +3,43 @@
 @tailwind utilities;
 
 .heroSide1Background {
-    background-image: url('../public/heroSide1.png');
+    background-image: url('/heroSide1.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .heroSide2Background {
-    background-image: url('../public/heroSide2.png');
+    background-image: url('/heroSide2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .chooseUsBackground {
-    background-image: url('../public/chooseUsImage.png');
+    background-image: url('/chooseUsImage.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .aboutUsBackground {
-    background-image: url('../public/aboutUsImage.png');
+    background-image: url('/aboutUsImage.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .servicesBackground {
-    background-image: url('../public/servicesImage.png');
+    background-image: url('/servicesImage.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .afterExploreBackground {
-    background-image: url('../public/afterExploreImage.png');
+    background-image: url('/afterExploreImage.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .subscribeImage {
-    background-image: url('../public/subscribeImage2.png');
+    background-image: url('/subscribeImage2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
