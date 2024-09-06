@@ -9,11 +9,12 @@ import Show from './components/Show/Show'
 import Subscribe from './components/Subscribe/Subscribe'
 import Testimonial from './components/Testimonial/Testimonial'
 import Faq from './components/FAQ/Faq'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
   return (
-    <div className='pb-[1000px] bg-[#DEE7F5]  md:w-[1440px] w-[428px]'>
+    <div className=' bg-[#DEE7F5]  md:w-[1440px] w-[428px]'>
       <Header />
       <Hero />
       <SubHero />
@@ -25,6 +26,7 @@ function App() {
       <Subscribe />
       <Testimonial />
       <Faq />
+      <Footer />
     </div>
   )
 }
