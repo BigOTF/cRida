@@ -14,11 +14,11 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <div className='bg-[#DEE7F5]'>
+    <div className='bg-[#DEE7F5] pb-[800px]'>
       <Header />
-     {/*  <Hero />
+      <Hero />
       <SubHero />
-      <AboutUs />
+{/*       <AboutUs />
       <ChooseUs />
       <Services />
       <Explore />

@@ -11,13 +11,13 @@ const Header = () => {
     }
     
   return (
-    <header className='border border-yellow-500 md:h-[83px] flex items-center justify-center bg-[#F5F5F5]'>
+    <header className='md:h-[83px] flex items-center justify-center bg-[#F5F5F5]'>
 
         {/* THIS FUNCTION WORKS ON LARGE SCREEN */}
-        <section className='border border-red-500 w-full mx-[100px] h-[44px] md:flex justify-between items-center hidden'>
-            <h1 className='w-[89px] h-[44px] nunito-700 text-[32px] leading-[43.65px] border border-green-500'>cRida</h1>
+        <section className='w-full mx-[100px] h-[44px] md:flex justify-between items-center hidden'>
+            <h1 className='w-[89px] h-[44px] nunito-700 text-[32px] leading-[43.65px]'>cRida</h1>
             
-            <nav className='border border-teal-500 w-[715px] h-[27px] flex items-center justify-between'>
+            <nav className='w-[715px] h-[27px] flex items-center justify-between'>
                 <a href='/' className='nunito-400 text-[#070125] hover:text-[#939294] text-[20px] leading-[27.28px] text-center cursor-pointer transition-all duration-500'>Home</a>
                 <a href='/about' className='nunito-400 text-[#070125] hover:text-[#939294] text-[20px] leading-[27.28px] text-center cursor-pointer transition-all duration-500'>About Us</a>
                 <a href='/rentals' className='nunito-400 text-[#070125] hover:text-[#939294] text-[20px] leading-[27.28px] text-center cursor-pointer transition-all duration-500'>Car Rentals</a>
@@ -30,7 +30,7 @@ const Header = () => {
         </section>
 
         {/* THIS FUNCTION WORKS ON MOBILE SCREEN */}
-        <section className='border border-red-500 w-full mx-[30px] my-[10px] md:hidden'>
+        <section className='w-full mx-[30px] my-[10px] md:hidden'>
 
             <div className='flex items-center justify-between'>
                 <h1 className='h-[44px] nunito-700 text-[32px] leading-[43.65px]'>cRida</h1>
@@ -42,13 +42,13 @@ const Header = () => {
                 </div>
             </div>
            
-            <nav className={toggleNav ? 'hidden' : 'flex flex-col gap-[8px] mt-[20px] mb-[10px]'}>
-                <a href='/' className='nunito-400 text-[#070125] text-[20px] leading-[27.28px]'>Home</a>
-                <a href='/about' className='nunito-400 text-[#070125] text-[20px] leading-[27.28px]'>About Us</a>
-                <a href='/rentals' className='nunito-400 text-[#070125] text-[20px] leading-[27.28px]'>Car Rentals</a>
-                <a href='/sales' className='nunito-400 text-[#070125] text-[20px] leading-[27.28px]'>Car Sales</a>
-                <a href='/ride' className='nunito-400 text-[#070125] text-[20px] leading-[27.28px]'>Co-Ride</a>
-                <a href='/hailing' className='nunito-400 text-[#070125] text-[20px] leading-[27.28px]'>Ride Hailing</a>
+            <nav className={toggleNav ? 'hidden' : 'flex flex-col gap-[16px] mt-[20px] mb-[10px]'}>
+                <a href='/' className='nunito-400 text-[#070125] text-[18px] leading-[27.28px]'>Home</a>
+                <a href='/about' className='nunito-400 text-[#070125] text-[18px] leading-[27.28px]'>About Us</a>
+                <a href='/rentals' className='nunito-400 text-[#070125] text-[18px] leading-[27.28px]'>Car Rentals</a>
+                <a href='/sales' className='nunito-400 text-[#070125] text-[18px] leading-[27.28px]'>Car Sales</a>
+                <a href='/ride' className='nunito-400 text-[#070125] text-[18px] leading-[27.28px]'>Co-Ride</a>
+                <a href='/hailing' className='nunito-400 text-[#070125] text-[18px] leading-[27.28px]'>Ride Hailing</a>
             </nav>
             
         </section>
