@@ -3,7 +3,7 @@ import image2 from '../../public/customer2.png'
 import image3 from '../../public/customer3.png'
 import image4 from '../../public/customer4.png'
 
-const Testimonial = [
+const TestimonialData = [
     {
         id: 1,
         image: image1,
@@ -24,6 +24,16 @@ const Testimonial = [
         image: image4,
         comment: "CRida exceeded my expectations in every way. From the ease of booking to the professionalism of the driver, everything was top-notch. Their vehicles are always clean and well-maintained. I'll definitely be using their services again!"
     },
+    {
+        id: 5,
+        image: image3,
+        comment: "CRida exceeded my expectations in every way. From the ease of booking to the professionalism of the driver, everything was top-notch. Their vehicles are always clean and well-maintained. I'll definitely be using their services again!"
+    },
+    {
+        id: 6,
+        image: image2,
+        comment: "CRida exceeded my expectations in every way. From the ease of booking to the professionalism of the driver, everything was top-notch. Their vehicles are always clean and well-maintained. I'll definitely be using their services again!"
+    },
 ]
 
-export default Testimonial
+export default TestimonialData
