@@ -8,6 +8,7 @@ import Explore from './components/Explore/Explore'
 import Show from './components/Show/Show'
 import Subscribe from './components/Subscribe/Subscribe'
 import Testimonial from './components/Testimonial/Testimonial'
+import Faq from './components/FAQ/Faq'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Show />
       <Subscribe />
       <Testimonial />
+      <Faq />
     </div>
   )
 }
