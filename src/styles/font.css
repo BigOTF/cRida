@@ -1,0 +1,46 @@
+/* .nunito-200{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <w;
+    font-style: normal;
+  } */
+  
+.nunito-200 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+}
+  
+.nunito-300 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+}
+
+.nunito-400 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+
+.nunito-500 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+
+.nunito-600 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.nunito-700 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.nunito-800 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+}
+
+.nunito-900 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+}
