@@ -18,8 +18,8 @@ function App() {
       <Header />
       <Hero />
       <SubHero />
-{/*       <AboutUs />
-      <ChooseUs />
+      <AboutUs />
+    {/*   <ChooseUs />
       <Services />
       <Explore />
       <Show />
