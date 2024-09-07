@@ -20,20 +20,20 @@ const AboutUs = () => {
       </div>
 
       {/* THIS DIV WILL ONLY DISPLAY ON THE SMALLER SCREEN SIZES */}
-      <div className='h-[774px] mx-[30px] flex flex-col gap-[40px] md:hidden'>
+      <div className='mx-[30px] flex flex-col gap-[40px] md:hidden'>
 
-        <div className='h-[340px] p-[8px] flex flex-col gap-[16px]'>
+        <div className='p-[8px] flex flex-col gap-[16px]'>
 
-          <div className='flex items-center gap-[8px] h-[27px]'>
+          <div className='flex items-center gap-[8px]'>
             <div className='w-[60px] border-[3px] border-[#BF5B12]'></div>
             <p className='text-[20px] leading-[27.28px] nunito-700 text-[#BF5B12]'>WHO WE ARE</p>
           </div>
 
-          <div className='h-[218px]'>
+          <div className=''>
             <p className='text-[20px] nunito-400 leading-[27.28px] text-[#363247]'>CRida is your reliable transportation partner, dedicated to ensuring safe and comfortable journeys. We create value by being proactive in maintaining quality fleet at reduced costs in order to provide efficient services by making sure we are at your service when needed.</p>
           </div>
 
-          <div className='bg-[#5810BF] w-[190px] h-[49px] rounded-[8px] p-[8px] flex items-center'>
+          <div className='bg-[#5810BF] w-[190px] rounded-[8px] p-[8px] flex items-center'>
             <a className='w-[185px] nunito-400 text-[22px] leading-[32.74px] text-center text-[#F5F5F5]'>More About Us</a>
           </div>
           

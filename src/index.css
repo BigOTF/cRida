@@ -22,7 +22,6 @@
 
 .aboutUsBackground {
     background-image: url('/aboutUsImage.png');
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
