@@ -4,9 +4,24 @@ import ChooseUsSideDetails from './ChooseUsSideDetails'
 
 const ChooseUs = () => {
   return (
-    <div className='md:w-[1440px] w-[428px] md:h-[627px] md:pt-[100px] pt-[100px] flex flex-col md:flex-row justify-between bg-[#DEE7F5]'>
-        <ChooseUsSide />
-        <ChooseUsSideDetails />
+    <div className='w-full mt-[90px] md:mt-[100px] md:h-[627px]'>
+
+
+      <div className='flex flex-col gap-[80px] md:flex-row md:gap-[100px] mx-[30px] md:mx-[100px]'>
+
+        <div>
+          <ChooseUsSide />
+        </div>
+
+        <div>
+          <ChooseUsSideDetails />
+        </div>
+
+      </div>
+
+     
+        
+        
     </div>
   )
 }

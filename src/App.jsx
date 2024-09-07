@@ -19,8 +19,8 @@ function App() {
       <Hero />
       <SubHero />
       <AboutUs />
-    {/*   <ChooseUs />
-      <Services />
+      <ChooseUs />
+      {/* <Services />
       <Explore />
       <Show />
       <Subscribe />

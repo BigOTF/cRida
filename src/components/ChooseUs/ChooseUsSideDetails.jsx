@@ -9,117 +9,119 @@ const ChooseUsSideDetails = () => {
   return (
     <div className=''>
 
-        <div className='md:w-[715px] md:h-[462px] md:ml-0 md:pt-0 md:flex justify-between hidden'>
+        {/* For larger screen */}
 
-            <div className='flex flex-col justify-between'>
+        <div className='md:flex gap-[50px] hidden'>
 
-                <div className='md:w-[295px] md:h-[138px] p-[8px] flex flex-col gap-[8px]'>
+            <div className='flex flex-col gap-[20px] p-[8px]'>
+
+                <div className='flex flex-col gap-[8px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <IoMdClock className='md:w-[28.21px] md:h-[30.37px] text-[#BF5B12]'/>
-                        <p className='text-[24px] font-bold text-[#070125] leading-[32.74px]'>24/7 Support</p>
+                        <IoMdClock className='md:w-[23px] md:h-[24px] text-[#BF5B12]'/>
+                        <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>24/7 Support</p>
                     </div>
-                    <p className='text-[20px] leading-[27.28px] text-[#363247]'>Our round-the-clock customer support team is here to help, anytime, anywhere.</p>
+                    <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Our round-the-clock customer support team is here to help, anytime, anywhere.</p>
                 </div>
 
-                <div className='md:w-[295px] md:h-[138px] p-[8px] flex flex-col gap-[8px]'>
+                <div className='flex flex-col gap-[8px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <FaShuffle className='md:w-[28.21px] md:h-[30.37px] text-[#BF5B12]'/>
-                        <p className='text-[24px] font-bold text-[#070125] leading-[32.74px]'>Flexible</p>
+                        <FaShuffle className='md:w-[23px] md:h-[24px] text-[#BF5B12]'/>
+                        <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Flexible</p>
                     </div>
-                    <p className='text-[20px] leading-[27.28px] text-[#363247]'>Tailored solutions to suit your unique travel needs. Enjoy the flexibility you deserve.</p>
+                    <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Tailored solutions to suit your unique travel needs. Enjoy the flexibility you deserve.</p>
                 </div>
 
-                <div className='md:w-[295px] md:h-[138px] p-[8px] flex flex-col gap-[8px]'>
+                <div className='flex flex-col gap-[8px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <SiAdguard className='md:w-[28.21px] md:h-[30.37px] text-[#BF5B12]'/>
-                        <p className='text-[24px] font-bold text-[#070125] leading-[32.74px]'>Insurance</p>
+                        <SiAdguard className='md:w-[23px] md:h-[24px] text-[#BF5B12]'/>
+                        <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Insurance</p>
                     </div>
-                    <p className='text-[20px] leading-[27.28px] text-[#363247]'>Travel with confidence as all our vehicles are fully insured for your safety.</p>
+                    <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Travel with confidence as all our vehicles are fully insured for your safety.</p>
                 </div>
             </div>
 
-            <div className='flex flex-col justify-between'>
+            <div className='flex flex-col gap-[20px] p-[8px]'>
 
-                <div className='md:w-[400px] md:h-[138px] p-[8px] flex flex-col gap-[8px]'>
+                <div className='flex flex-col gap-[8px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <FaHandHoldingUsd className='md:w-[28.21px] md:h-[30.37px] text-[#BF5B12]'/>
-                        <p className='text-[24px] font-bold text-[#070125] leading-[32.74px]'>Affordable Pricing</p>
+                        <FaHandHoldingUsd className='md:w-[23px] md:h-[24px] text-[#BF5B12]'/>
+                        <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Affordable Pricing</p>
                     </div>
-                    <p className='text-[20px] leading-[27.28px] text-[#363247]'>Enjoy competitive rates without compromising on quality. Get the best value for your money with CRida.</p>
+                    <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Enjoy competitive rates without compromising on quality. Get the best value for your money with CRida.</p>
                 </div>
 
-                <div className='md:w-[400px] md:h-[138px] p-[8px] flex flex-col gap-[8px]'>
+                <div className='flex flex-col gap-[8px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <FaCalendarAlt className='md:w-[28.21px] md:h-[30.37px] text-[#BF5B12]'/>
-                        <p className='text-[24px] font-bold text-[#070125] leading-[32.74px]'>Seamless Reservation</p>
+                        <FaCalendarAlt className='md:w-[23px] md:h-[24px] text-[#BF5B12]'/>
+                        <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Seamless Reservation</p>
                     </div>
-                    <p className='text-[20px] leading-[27.28px] text-[#363247]'>Book your ride in seconds with our user-friendly platform. Enjoy a hassle-free booking experience with CRida.</p>
+                    <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Book your ride in seconds with our user-friendly platform. Enjoy a hassle-free booking experience with CRida.</p>
                 </div>
 
-                <div className='md:w-[400px] md:h-[138px] p-[8px] flex flex-col gap-[8px]'>
+                <div className='flex flex-col gap-[8px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <PiSeatbeltFill className='md:w-[28.21px] md:h-[30.37px] text-[#BF5B12]'/>
-                        <p className='text-[24px] font-bold text-[#070125] leading-[32.74px]'>Clean and Safe Cars</p>
+                        <PiSeatbeltFill className='md:w-[23px] md:h-[24px] text-[#BF5B12]'/>
+                        <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Clean and Safe Cars</p>
                     </div>
-                    <p className='text-[20px] leading-[27.28px] text-[#363247]'>Hygienic and well-maintained vehicles ensure a safe and comfortable journey with CRida.</p>
+                    <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Hygienic and well-maintained vehicles ensure a safe and comfortable journey with CRida.</p>
                 </div>
             </div>
 
         </div>
 
-        <div className='w-[322px] ml-[53px] pt-[50px] flex flex-col justify-between gap-[16px] md:hidden'>
+        {/* This will show on smaller screens */}
 
-            <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
+        <div className=' md:hidden p-[8px] flex flex-col gap-[30px]'>
+
+            <div className='flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
                     <IoMdClock className='w-[21.16px] h-[22.77px] text-[#BF5B12]'/>
-                    <p className='text-[20px] font-bold text-[#070125] leading-[32.74px]'>24/7 Support</p>
+                    <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>24/7 Support</p>
                 </div>
-                <p className='text-[20px] leading-[27.28px] text-[#363247]'>Need assistance? Our round-the-clock customer support team is here to help, anytime, anywhere.</p>
+                <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Need assistance? Our round-the-clock customer support team is here to help, anytime, anywhere.</p>
             </div>
 
-            <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
+            <div className='flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
                     <FaHandHoldingUsd className='w-[21.16px] h-[22.77px] text-[#BF5B12]'/>
-                    <p className='text-[20px] font-bold text-[#070125] leading-[32.74px]'>Affordable Pricing</p>
+                    <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Affordable Pricing</p>
                 </div>
-                <p className='text-[20px] leading-[27.28px] text-[#363247]'>Enjoy competitive rates without compromising on quality. Get the best value for your money with CRida.</p>
+                <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Enjoy competitive rates without compromising on quality. Get the best value for your money with CRida.</p>
             </div>
 
-            <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
+            <div className='flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
                     <FaShuffle className='w-[21.16px] h-[22.77px] md text-[#BF5B12]'/>
-                    <p className='text-[20px] font-bold text-[#070125] leading-[32.74px]'>Flexible Rentals</p>
+                    <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Flexible Rentals</p>
                 </div>
-                <p className='text-[20px] leading-[27.28px] text-[#363247]'>Tailored solutions to suit your unique travel needs. Experience the flexibility you deserve with CRida.</p>
+                <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Tailored solutions to suit your unique travel needs. Experience the flexibility you deserve with CRida.</p>
             </div>
 
-            <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
+            <div className='flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
                     <FaCalendarAlt className='w-[21.16px] h-[22.77px] text-[#BF5B12]'/>
-                    <p className='text-[20px] font-bold text-[#070125] leading-[32.74px]'>Easy Booking Process</p>
+                    <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Easy Booking Process</p>
                 </div>
-                <p className='text-[20px] leading-[27.28px] text-[#363247]'>Book your ride in seconds with our user-friendly platform. Enjoy a hassle-free booking experience with CRida.</p>
+                <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Book your ride in seconds with our user-friendly platform. Enjoy a hassle-free booking experience with CRida.</p>
             </div>
 
-            <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
+            <div className='flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
                     <SiAdguard className='w-[21.16px] h-[22.77px] text-[#BF5B12]'/>
-                    <p className='text-[20px] font-bold text-[#070125] leading-[32.74px]'>Insurance</p>
+                    <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Insurance</p>
                 </div>
-                <p className='text-[20px] leading-[27.28px] text-[#363247]'>Travel with confidence knowing that all our vehicles are fully insured for your safety and peace of mind.</p>
+                <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Travel with confidence knowing that all our vehicles are fully insured for your safety and peace of mind.</p>
             </div>
 
-            <div className='w-[322px] h-[165px] p-[8px] flex flex-col gap-[8px]'>
+            <div className='flex flex-col gap-[8px]'>
                 <div className='flex items-center gap-[10px]'>
                     <PiSeatbeltFill className='w-[21.16px] h-[22.77px] text-[#BF5B12]'/>
-                    <p className='text-[20px] font-bold text-[#070125] leading-[32.74px]'>Clean and Safe Cars</p>
+                    <p className='text-[24px] nunito-700 text-[#070125] leading-[32.74px]'>Clean and Safe Cars</p>
                 </div>
-                <p className='text-[20px] leading-[27.28px] text-[#363247]'>Hygienic and well-maintained vehicles ensure a safe and comfortable journey with CRida.</p>
+                <p className='text-[20px] leading-[27.28px] nunito-400 text-[#363247]'>Hygienic and well-maintained vehicles ensure a safe and comfortable journey with CRida.</p>
             </div>
 
         </div>
-
-
 
     </div>
   )
