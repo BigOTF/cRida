@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { BsGearFill, BsFillFuelPumpFill } from "react-icons/bs";
+import { SiCoronaengine } from "react-icons/si";
 
 const ExploreCars = () => {
     const [carProduct, setCarProduct] = useState([]);
@@ -40,34 +41,37 @@ const ExploreCars = () => {
             
             carProduct.map((car) => {
                 return (
-                    <div key={car.id} className='w-[368px] h-[586px] md:w-[400px] md:h-[612px] flex flex-col gap-[16px] bg-white'>
+                    <div key={car.id} className='flex flex-col gap-[16px] bg-white'>
+
                         <div>
-                            <img src={car.image} className='w-[368px] h-[264px] md:w-[400px] md:h-[264px] object-cover' />
+                            <img src={car.image} className='w-full h-[250px] object-cover' />
                         </div>
 
-                        <div className='w-[368px] h-[290px] md:w-[400px] md:h-[316px] flex flex-col gap-[48px] p-[16px]'>
+                        <div className='flex flex-col p-[16px] gap-[12px] md:gap-[16px]'>
 
-                            <div className='w-[336px] h-[159px] md:w-[368px] md:h-[179px] flex flex-col gap-[16px]'>
-                                <p className='font-bold text-[20px] leading-[27.28px] md:text-[24px] md:leading-[32.74px] text-[#070125]'>{car.make} <span>{car.model}</span></p>
-                                <p className='text-[20px] leading-[27.28px] md:text-[24px] md:leading-[32.74px] text-[#070125] font-semibold'><span>&#36;</span>{car.price}/ day</p>
+                            <div className='flex flex-col gap-[8px] md:gap-[10px]'>
+                                <p className='nunito-700 text-[20px] leading-[27.28px] md:text-[24px] md:leading-[32.74px] text-[#070125]'>{car.make} <span>{car.model}</span></p>
+                                <p className='text-[20px] leading-[27.28px] md:text-[24px] md:leading-[32.74px] text-[#070125] nunito-600'><span>&#36;</span>{car.price}/ day</p>
 
                                 <div className='flex gap-[16px]'>
-                                    <div className='flex flex-col items-center'>
+                                    <div className='flex flex-col items-center gap-[8px]'>
                                         <BsGearFill className='text-[#5810BF] w-[13.84px] h-[15.43px]' />
-                                        <p className='text-[#363247] text-[16px] leading-[21.82px] text-center'>{car.transmission}</p>
+                                        <p className='text-[#363247] text-[16px] nunito-400 leading-[21.82px] text-center'>{car.transmission}</p>
                                     </div>
-                                    <div className='flex flex-col items-center'>
+                                    <div className='flex flex-col items-center gap-[8px]'>
                                         <BsFillFuelPumpFill className='text-[#5810BF] md:w-[13.84px] md:h-[15.43px]' />
-                                        <p className='text-[#363247] text-[16px] leading-[21.82px] text-center'>{car.fuelType}</p>
+                                        <p className='text-[#363247] text-[16px] nunito-400 leading-[21.82px] text-center'>{car.fuelType}</p>
+                                    </div>
+                                    <div className='flex flex-col items-center gap-[8px]'>
+                                        <SiCoronaengine className='text-[#5810BF] md:w-[13.84px] md:h-[15.43px]' />
+                                        <p className='text-[#363247] text-[16px] nunito-400 leading-[21.82px] text-center'>{car.engine}</p>
                                     </div>
                                 </div>
 
-                                <p className='text-[18px] leading-[24.55px] md:text-[24px] md:leading-[32.74px] text-[#363247]'>More details</p>
-
                             </div>
 
-                            <div className='w-[163px] h-[43px] md:w-[189px] md:h-[49px] bg-[#5810BF] text-white hover:text-[#5810BF] hover:bg-white border hover:border-[#5810BF] rounded-[8px] p-[8px] transition-all duration-500 text-center'>
-                                <a className='cursor-pointer text-[20px] leading-[27.28px] md:text-[24px] md:leading-[32.74px] text-center'>Book Now</a>
+                            <div className='bg-[#5810BF] text-white hover:text-[#5810BF] hover:bg-white border hover:border-[#5810BF] rounded-[8px] p-[8px] transition-all duration-500 text-center'>
+                                <a className='cursor-pointer nunito-400 text-[20px] leading-[27.28px] md:text-[24px] md:leading-[32.74px] text-center'>Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +82,7 @@ const ExploreCars = () => {
     }
 
   return (
-    <div className='mt-[30px] md:mt-[30px] md:h-[1270px] flex flex-col gap-[16px] md:flex-row md:flex-wrap justify-between'>
+    <div className='grid grid-cols-1 gap-[14px] md:grid-cols-3 md:gap-[20px]'>
         <CarProductDisplay />
     </div>
   )

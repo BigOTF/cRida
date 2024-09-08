@@ -21,8 +21,8 @@ function App() {
       <AboutUs />
       <ChooseUs />
       <Services />
-{/*       <Explore />
-      <Show />
+      <Explore />
+{/*       <Show />
       <Subscribe />
       <Testimonial />
       <Faq />
