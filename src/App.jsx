@@ -20,8 +20,8 @@ function App() {
       <SubHero />
       <AboutUs />
       <ChooseUs />
-      {/* <Services />
-      <Explore />
+      <Services />
+{/*       <Explore />
       <Show />
       <Subscribe />
       <Testimonial />
