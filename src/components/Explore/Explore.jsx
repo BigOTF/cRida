@@ -3,7 +3,7 @@ import ExploreCars from './ExploreCars'
 
 const Explore = () => {
   return (
-    <div className='w-full md:mt-[70px] mt-[550px] px-[30px] md:px-[100px] flex flex-col gap-[16px]'>
+    <div className='w-full md:mt-[70px] mt-[750px] px-[30px] md:px-[100px] flex flex-col gap-[16px]'>
         
       <div className='p-[8px] flex flex-col gap-[16px] md:flex-row md:items-center md:justify-between md:gap-0'>
         <div className='md:w-[40%] flex flex-col gap-[8px]'>
