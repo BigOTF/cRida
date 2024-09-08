@@ -22,8 +22,8 @@ function App() {
       <ChooseUs />
       <Services />
       <Explore />
-{/*       <Show />
-      <Subscribe />
+      <Show />
+      {/* <Subscribe />
       <Testimonial />
       <Faq />
       <Footer /> */}
