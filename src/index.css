@@ -37,12 +37,6 @@
     background-repeat: no-repeat;
 }
 
-.subscribeImage {
-    background-image: url('/subscribeImage2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .chooseRadius {
     border-radius: 8px 8px 8px 0px;
 }
@@ -57,9 +51,6 @@
 
 .servicesPadding2 {
     padding: 0px 8px 0px 8px
-}
-.subscribePadding {
-    padding: 48px 108px 48px 108px;
 }
 
 .exploreCar {

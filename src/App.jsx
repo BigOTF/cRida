@@ -23,8 +23,8 @@ function App() {
       <Services />
       <Explore />
       <Show />
-      {/* <Subscribe />
-      <Testimonial />
+      <Subscribe />
+{/*       <Testimonial />
       <Faq />
       <Footer /> */}
     </div>
