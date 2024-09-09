@@ -16,7 +16,7 @@ const ChooseUsSide = () => {
 
         <div className='relative flex'>
             <div className='h-[369px] md:h-[332px] w-full chooseRadius bg-[#070125]'></div>
-            <div className='chooseUsBackground w-full h-[366px] md:h-[332px] rounded-[4px] absolute md:top-[15px] md:left-[20px] top-[25px] left-[20px]'></div>
+            <div className='chooseUsBackground w-full h-[366px] md:h-[332px] rounded-[4px] absolute md:top-[15px] md:left-[20px] top-[10px] left-[6px]'></div>
         </div>
 
     </div>
