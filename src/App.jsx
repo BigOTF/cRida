@@ -24,8 +24,8 @@ function App() {
       <Explore />
       <Show />
       <Subscribe />
-{/*       <Testimonial />
-      <Faq />
+      <Testimonial />
+      {/* <Faq />
       <Footer /> */}
     </div>
   )
