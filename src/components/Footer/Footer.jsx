@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='mt-[50px] pt-[30px] md:mt-[100px] md:py-[80px] py-[50px] bg-[#070125] w-full flex flex-col gap-[24px] md:gap-[32px]'>
 
-        <div className='flex flex-col gap-[30px] md:grid grid-cols-4 md:gap-[20px] md:mx-[100px] mx-[30px]'>
+        <div className='flex flex-col gap-[30px] md:grid grid-cols-4 md:gap-[20px] md:mx-[100px] mx-[10px]'>
 
             <div className='p-[8px] hidden md:flex flex-col gap-[16px]'>
                 <p className='nunito-700 md:text-[24px] md:leading-[32.74px] text-[#F5F5F5]'>About Us</p>
@@ -76,7 +76,7 @@ const Footer = () => {
             
         </div>
 
-        <div className='flex flex-col gap-[16px] md:mx-[100px] mx-[30px]'>
+        <div className='flex flex-col gap-[16px] md:mx-[100px] mx-[10px]'>
 
             <p className='text-[20px] leading-[27.28px] nunito-400 md:nunito-700 md:text-[24px] md:leading-[32.74px] text-[#F5F5F5]'>Follow Us</p>
 
@@ -98,7 +98,7 @@ const Footer = () => {
 
         <div className='border-[0.5px] border-[#FBFBFB]'></div>
 
-        <p className='mx-[30px] nunito-400 text-[16px] leading-[21.82px] md:mx-[100px] md:text-[20px] md:leading-[27.28px] text-[#F5F5F5]'>Copyright 2023,crida@gmail.com.All right reserved</p>
+        <p className='mx-[10px] nunito-400 text-[16px] leading-[21.82px] md:mx-[100px] md:text-[20px] md:leading-[27.28px] text-[#F5F5F5]'>Copyright 2023,crida@gmail.com.All right reserved</p>
 
 
     </footer>

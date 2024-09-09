@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <div className='bg-[#DEE7F5] pb-[800px]'>
+    <div className='bg-[#DEE7F5]'>
       <Header />
       <Hero />
       <SubHero />

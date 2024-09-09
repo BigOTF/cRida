@@ -20,7 +20,7 @@ const AboutUs = () => {
       </div>
 
       {/* THIS DIV WILL ONLY DISPLAY ON THE SMALLER SCREEN SIZES */}
-      <div className='mx-[30px] flex flex-col gap-[40px] md:hidden'>
+      <div className='mx-[10px] flex flex-col gap-[40px] md:hidden'>
 
         <div className='p-[8px] flex flex-col gap-[16px]'>
 
