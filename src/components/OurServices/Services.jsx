@@ -20,7 +20,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className='absolute top-[90%] md:top-[45%] md:mx-[164px] mx-[30px]'>
+      <div className='absolute top-[90%] md:top-[45%] md:mx-[164px] mx-[10px]'>
         <RenderedServices />
       </div> 
 

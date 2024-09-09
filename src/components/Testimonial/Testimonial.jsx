@@ -31,7 +31,7 @@ const Testimonial = () => {
 
         </div>
 
-        <div className='md:mx-[100px]'>
+        <div className='md:mx-[100px] mx-[30px]'>
             <CustomerRemarks handleNext={handleNext} currentSlides={currentSlides} />
         </div>
 

@@ -36,13 +36,13 @@ const Faq = () => {
     }
 
   return (
-    <div className='mt-[50px] w-full md:mt-[100px] flex flex-col gap-[20px] md:gap-0'>
+    <div className='mt-[50px] w-full md:mt-[100px] flex flex-col gap-[20px] md:gap-[30px]'>
 
         <div className='flex items-center justify-center'>
             <p className='text-[#070125] nunito-400 text-[24px] leading-[32.74px] md:nunito-700 md:text-[40px] md:leading-[54.56px]'>Frequently Asked Questions</p>      
         </div>
 
-        <div className='md:mx-[100px] flex flex-col gap-[25px]'>
+        <div className='md:mx-[100px] flex flex-col gap-[25px] mx-[10px]'>
             <DisplayFaq />
         </div>
 
