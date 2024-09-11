@@ -37,6 +37,30 @@
     background-repeat: no-repeat;
 }
 
+.aboutUsPageHero {
+    background-image: url('/aboutUsPageHero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutUsImage2 {
+    background-image: url('/AboutUsImage2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.missionImage {
+    background-image: url('/missionImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.offerServiceImage {
+    background-image: url('/offerServicesImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .chooseRadius {
     border-radius: 8px 8px 8px 0px;
 }
