@@ -17,7 +17,7 @@ const AboutUsText = () => {
         </div>
 
         <div className='md:w-[189px] md:h-[49px] rounded-[8px] p-[8px] bg-[#5810BF]'>
-          <a className='md:w-[173px] md:h-[33px] nunito-400 md:text-[24px] md:leading-[32.74px] text-[#F5F5F5] cursor-pointer'>More About Us</a>
+          <a href='/about' className='md:w-[173px] md:h-[33px] nunito-400 md:text-[24px] md:leading-[32.74px] text-[#F5F5F5] cursor-pointer'>More About Us</a>
         </div>
 
       </div>
