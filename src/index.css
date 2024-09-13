@@ -41,12 +41,14 @@
     background-image: url('/aboutUsPageHero.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .carSharingHero {
     background-image: url('/carSharingHero.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .carSharingMobileHero {

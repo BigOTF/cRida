@@ -6,7 +6,7 @@ const CarSharingFAQ = () => {
     const [CarFaq, setCarFaq] = useState(SharingFaq);
 
     const handleShowAnswer = (id) => {
-        const showID = faqquest.map((data) => (data.id) === id ? {...data, checked: !data.checked} : data);
+        const showID = CarFaq.map((data) => (data.id) === id ? {...data, checked: !data.checked} : data);
         return setCarFaq(showID);
     }
 
