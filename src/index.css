@@ -43,6 +43,19 @@
     background-repeat: no-repeat;
 }
 
+.carSharingHero {
+    background-image: url('/carSharingHero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carSharingMobileHero {
+    background-image: url('/carSharingHero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .aboutUsImage2 {
     background-image: url('/AboutUsImage2.png');
     background-size: cover;
@@ -79,4 +92,8 @@
 
 .exploreCar {
     padding: 8px 16px 32px 16px
+}
+
+.carSharingHeroPadding {
+    padding: 8px 8px 16px 8px
 }
