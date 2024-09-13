@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import SharingHero from './SharingHero';
 import WhyCarSharing from './WhyCarSharing';
 import TodoCarSharing from './TodoCarSharing';
+import ExploreCar from './ExploreCar';
 
 const MainPage = () => {
   return (
@@ -16,6 +17,7 @@ const MainPage = () => {
 
             <div className='bg-[#DEE7F5]'>
                 <TodoCarSharing />
+                <ExploreCar />
             </div>
             
         </div>
