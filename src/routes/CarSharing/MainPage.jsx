@@ -6,6 +6,7 @@ import WhyCarSharing from './WhyCarSharing';
 import TodoCarSharing from './TodoCarSharing';
 import ExploreCar from './ExploreCar';
 import Locations from './Locations';
+import AreaCovered from './AreaCovered';
 
 const MainPage = () => {
   return (
@@ -20,6 +21,7 @@ const MainPage = () => {
                 <TodoCarSharing />
                 <ExploreCar />
                 <Locations />
+                <AreaCovered />
             </div>
             
         </div>

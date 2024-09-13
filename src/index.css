@@ -74,6 +74,12 @@
     background-repeat: no-repeat;
 }
 
+.areaCoveredImage {
+    background-image: url('/areaCovered.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .chooseRadius {
     border-radius: 8px 8px 8px 0px;
 }
