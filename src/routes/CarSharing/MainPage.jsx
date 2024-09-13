@@ -5,6 +5,7 @@ import SharingHero from './SharingHero';
 import WhyCarSharing from './WhyCarSharing';
 import TodoCarSharing from './TodoCarSharing';
 import ExploreCar from './ExploreCar';
+import Locations from './Locations';
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
             <div className='bg-[#DEE7F5]'>
                 <TodoCarSharing />
                 <ExploreCar />
+                <Locations />
             </div>
             
         </div>

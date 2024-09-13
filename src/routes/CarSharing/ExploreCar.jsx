@@ -36,10 +36,10 @@ const ExploreCar = () => {
   return (
     <div className='w-full mt-[60px] md:mt-[120px] flex flex-col px-[10px] gap-[20px] md:gap-[25px] md:px-[100px]'>
 
-        <p className='text-[#363247] nunito-700 text-[24px] leading-[32.74px] md:text-[32px] md:leading-[43.65px]'>Explore Cars Near You</p>
+        <p className='text-[#363247] nunito-700 text-[24px] leading-[32.74px] md:text-[32px] md:leading-[43.65px] text-center md:text-start'>Explore Cars Near You</p>
 
         <div className='flex flex-col md:flex-row md:items-center justify-between'>
-            <div className='flex flex-col gap-[16px] md:flex-row md:gap-[20px]'>
+            <div className='grid grid-cols-2 gap-[16px] md:grid-cols-6 md:gap-[20px]'>
                 <DisplayExploreCars />
             </div>
             
