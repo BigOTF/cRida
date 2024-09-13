@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import SharingHero from './SharingHero';
 import WhyCarSharing from './WhyCarSharing';
+import TodoCarSharing from './TodoCarSharing';
 
 const MainPage = () => {
   return (
@@ -12,6 +13,11 @@ const MainPage = () => {
         <div>
             <SharingHero />
             <WhyCarSharing />
+
+            <div className='bg-[#DEE7F5]'>
+                <TodoCarSharing />
+            </div>
+            
         </div>
 
         <Footer />
