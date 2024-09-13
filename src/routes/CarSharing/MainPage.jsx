@@ -7,26 +7,30 @@ import TodoCarSharing from './TodoCarSharing';
 import ExploreCar from './ExploreCar';
 import Locations from './Locations';
 import AreaCovered from './AreaCovered';
+import CarSharingFAQ from './CarSharingFAQ';
 
 const MainPage = () => {
   return (
-    <div className='w-full'>
-        <Header />
+    <div className='w-full bg-[#DEE7F5]'>
+      <Header />
 
-        <div>
-            <SharingHero />
-            <WhyCarSharing />
+      <div>
 
-            <div className='bg-[#DEE7F5]'>
-                <TodoCarSharing />
-                <ExploreCar />
-                <Locations />
-                <AreaCovered />
-            </div>
-            
+        <div className='bg-[#F5F5F5]'>
+          <SharingHero />
+          <WhyCarSharing />
         </div>
+    
+        <TodoCarSharing />
+        <ExploreCar />
+        <Locations />
+        <AreaCovered />
+        <CarSharingFAQ />
+  
+          
+      </div>
 
-        <Footer />
+      <Footer />
     </div>
   )
 }

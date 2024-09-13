@@ -1,18 +1,17 @@
 import React, { useState } from 'react'
-import FaqData from '../../data/FAQ'
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import SharingFaq from '../../data/SharingFAQ';
 
-const Faq = () => {
-    const [faqquest, setFaqquest] = useState(FaqData);
-    const [showAnswer, setShowAnswer] = useState(true);
+const CarSharingFAQ = () => {
+    const [CarFaq, setCarFaq] = useState(SharingFaq);
 
     const handleShowAnswer = (id) => {
         const showID = faqquest.map((data) => (data.id) === id ? {...data, checked: !data.checked} : data);
-        return setFaqquest(showID);
+        return setCarFaq(showID);
     }
 
-    const DisplayFaq = () => {
-        return faqquest.map((data) => {
+    const DisplayCarSharingFaq = () => {
+        return CarFaq.map((data) => {
             return (
                 <div key={data.id} className='p-[8px] flex flex-col gap-[8px] md:gap-[10px] border-b border-[#939294]'>
 
@@ -35,18 +34,18 @@ const Faq = () => {
     }
 
   return (
-    <div className='mt-[50px] w-full md:mt-[100px] flex flex-col gap-[20px] md:gap-[30px]'>
+   <div className='mt-[50px] w-full md:mt-[100px] flex flex-col gap-[20px] md:gap-[30px]'>
 
         <div className='flex items-center justify-center'>
             <p className='text-[#070125] nunito-400 text-[24px] leading-[32.74px] md:nunito-700 md:text-[40px] md:leading-[54.56px]'>Frequently Asked Questions</p>      
         </div>
 
         <div className='md:mx-[100px] flex flex-col gap-[25px] mx-[10px]'>
-            <DisplayFaq />
+            <DisplayCarSharingFaq />
         </div>
 
     </div>
   )
 }
 
-export default Faq
+export default CarSharingFAQ

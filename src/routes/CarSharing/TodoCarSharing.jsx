@@ -2,7 +2,7 @@ import React from 'react'
 
 const TodoCarSharing = () => {
   return (
-    <div className='w-full mt-[50px] flex flex-col gap-[30px] px-[10px] md:gap-[100px] md:px-[100px]'>
+    <div className='w-full mt-[60px] flex flex-col gap-[30px] px-[10px] md:gap-[100px] md:px-[100px]'>
 
         <div className='flex flex-col gap-[30px] md:flex-row md:justify-between md:items-center'>
 

@@ -5,7 +5,7 @@ import { FaMoneyCheckAlt } from "react-icons/fa";
 
 const WhyCarSharing = () => {
   return (
-    <div className='w-full flex flex-col justify-center items-center mt-[20px] gap-[40px] md:mt-[40px] md:gap-[64px]'>
+    <div className='w-full flex flex-col justify-center items-center mt-[20px] gap-[40px] md:mt-[40px] md:gap-[64px] pb-[40px] md:pb-[60px]'>
 
         <div className='flex flex-col justify-center items-center md:w-[716px] mx-[10px]'>
             <p className='nunito-700 text-[#BF5B12] text-[24px] leading-[32.74px] md:text-[40px] md:leading-[54.56px]'>Why CRida Co-Ride</p>
