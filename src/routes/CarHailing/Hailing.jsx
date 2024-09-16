@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import HailingHero from './HailingHero'
 import HailingSubHero from './HailingSubHero'
 import WhyHailing from './WhyHailing'
+import AvailableHailing from './AvailableHailing'
 
 const Hailing = () => {
   return (
@@ -14,6 +15,7 @@ const Hailing = () => {
           <HailingHero />
           <HailingSubHero />
           <WhyHailing />
+          <AvailableHailing />
          
         </div>
       <Footer />

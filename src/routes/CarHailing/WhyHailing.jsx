@@ -4,7 +4,7 @@ import riderImage from '/hailingRiders.png'
 
 const WhyHailing = () => {
   return (
-    <div className='border-4 border-red-500 w-full px-[10px] mt-[50px] md:px-[100px] md:mt-[100px] flex flex-col gap-[40px] md:gap-[64px]'>
+    <div className='w-full px-[10px] mt-[50px] md:px-[100px] md:mt-[100px] flex flex-col gap-[40px] md:gap-[64px]'>
 
       {/* Drivers */}
       <div className='flex flex-col gap-[10px] md:flex-row md:justify-between md:items-center'>
@@ -36,7 +36,7 @@ const WhyHailing = () => {
           </ul>
 
           <div className='bg-[#5810BF] w-[230px] h-[49px] rounded-[8px] p-[8px] text-center place-content-center'>
-            <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px]'>Apply to drive</a>
+            <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px] cursor-pointer'>Apply to drive</a>
           </div>
 
         </div>
@@ -59,14 +59,14 @@ const WhyHailing = () => {
           </div>
           
           <ul className='flex flex-col gap-[16px]'>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Request a ride within few minutes</li>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Schedule your ride in advance</li>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Pay via card or transfer</li>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Review your driver</li>                        
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Request a ride within few minutes</li>
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Schedule your ride in advance</li>
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Pay via card or transfer</li>
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Review your driver</li>                        
           </ul>
 
           <div className='bg-[#5810BF] w-[230px] h-[49px] rounded-[8px] p-[8px] text-center place-content-center'>
-            <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px]'>Get a ride</a>
+            <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px] cursor-pointer'>Get a ride</a>
           </div>
 
         </div>
@@ -84,14 +84,14 @@ const WhyHailing = () => {
           </div>
 
           <ul className='flex flex-col gap-[16px]'>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Request a ride within few minutes</li>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Schedule your ride in advance</li>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Pay via card or transfer</li>
-            <li className='list-decimal list-inside nunito-700 text-[#363247] text-[24px] leading-[32.74px]'>Review your driver</li>                        
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Request a ride within few minutes</li>
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Schedule your ride in advance</li>
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Pay via card or transfer</li>
+            <li className='list-decimal list-inside nunito-400 text-[#363247] text-[24px] leading-[32.74px]'>Review your driver</li>                        
           </ul>
 
           <div className='bg-[#5810BF] w-[230px] h-[49px] rounded-[8px] p-[8px] text-center place-content-center'>
-            <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px]'>Get a ride</a>
+            <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px] cursor-pointer'>Get a ride</a>
           </div>
 
         </div>
