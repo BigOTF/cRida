@@ -3,6 +3,7 @@ import HailingAvail from '../../data/HailingAvail'
 
 const AvailableHailing = () => {
     const [availableData, setAvailableData] = useState(HailingAvail);
+    const [dataCount, setDataCount] = useState(4);
 
     const DisplayAvailableData = () => {
         return (
@@ -46,18 +47,30 @@ const AvailableHailing = () => {
                     </div>
                 )
             })
-        )
+        ).slice(0, dataCount);
     }
+
+    const handleMoreDisplay = () => {
+        setDataCount((prev) => prev + 4);
+    }
+
+    const handleLessDisplay = () => {
+        setDataCount((prev) => prev - 4);
+    }
+
   return (
     <div className='w-full px-[10px] mt-[50px] md:mt-[100px] md:px-[100px] flex flex-col items-center gap-[16px] md:gap-[32px]'>
-        <p className='text-[#BF5B12] nunito-700 text-[20px] leading-[32.74px] md:text-[40px] md:leading-[54.56px]'>Available Rides</p>
+        <p className='text-[#BF5B12] md:text-[#070125] nunito-700 text-[24px] leading-[32.74px] md:text-[40px] md:leading-[54.56px]'>Available Rides</p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[16px]'>
             <DisplayAvailableData />
         </div>
 
-        <div className='bg-[#5810BF] w-[176px] md:w-[297px] h-[49px] rounded-[4px] p-[8px] text-center place-content-center'>
-            <a className='nunito-400 text-[#F5F5F5] text-[24px] leading-[32.74px] cursor-pointer'>View All Ride</a>
+        <div className='bg-[#5810BF] w-[250px] md:w-[297px] h-[49px] rounded-[4px] p-[8px] text-center place-content-center'>
+            {
+                dataCount !== 8 ?  <a className='nunito-400 text-[#F5F5F5] text-[24px] leading-[32.74px] cursor-pointer' onClick={() => handleMoreDisplay()}>View All Ride</a> : <a className='nunito-400 text-[#F5F5F5] text-[24px] leading-[32.74px] cursor-pointer' onClick={() => handleLessDisplay()}>View Less Ride</a>
+            }
+          
         </div>
     </div>
   )
