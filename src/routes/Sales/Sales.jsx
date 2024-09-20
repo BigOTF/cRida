@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+import Faq from '../../components/FAQ/Faq'
 import Footer from '../../components/Footer/Footer'
 
 import SalesHero from './SalesHero'
@@ -13,6 +14,7 @@ const Sales = () => {
         <SalesHero />
         <SalesSubHero />
         <FeaturedCars />
+        <Faq />
         <Footer />
     </div>
   )

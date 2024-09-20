@@ -54,7 +54,6 @@ const RentalExplore = () => {
         setDataCount((prev) => prev - 12);
     }
 
-
   return (
     <div className='w-full mt-[20px] px-[10px] md:px-[100px] flex flex-col gap-[20px]'>
 

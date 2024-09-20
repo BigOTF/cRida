@@ -139,7 +139,7 @@ const carData = [
     {
         id: 13,
         image: image13,
-        name: 'Toyota Rav4 2019 (Silver)',
+        name: 'Toyota Rav4 2019 (Red)',
         price: '₦40,500,650',
         door: 4,
         seat: 8,
@@ -149,7 +149,7 @@ const carData = [
     {
         id: 14,
         image: image14,
-        name: 'Toyota Rav4 2019 (Silver)',
+        name: 'Toyota Rav4 2019 (White)',
         price: '₦21,034,780',
         door: 4,
         seat: 5,
