@@ -62,7 +62,7 @@ const RentalExplore = () => {
 
             <div className='w-full flex md:gap-[20px] md:px-[8px] md:py-[5px]'>
                 <p className='nunito-700 w-full text-[16px] leading-[21.82px] md:text-[24px] md:leading-[32.74px] text-[#363247] place-content-center'>Sort By</p>
-                <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='cursor-pointer bg-inherit focus:outline-none border px-[3px] md:px-[5px] nunito-400 text-[16px] leading-[21.82px] md:text-[20px] md:leading-[27.28px] text-[#363247] w-full'>
+                <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='cursor-pointer bg-inherit focus:outline-none px-[3px] md:px-[5px] nunito-400 text-[16px] leading-[21.82px] md:text-[20px] md:leading-[27.28px] text-[#363247] w-full'>
                     <option value='price'>Price</option>
                     <option value='type'>Type</option>
                     <option value='model'>Model</option>

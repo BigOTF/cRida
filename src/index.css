@@ -79,6 +79,13 @@
     background-position: center;
 }
 
+.salesHero {
+    background-image: url('/salesHero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .aboutUsImage2 {
     background-image: url('/AboutUsImage2.png');
     background-size: cover;
