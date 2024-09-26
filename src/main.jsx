@@ -9,6 +9,7 @@ import MainPage from './routes/CarSharing/MainPage.jsx'
 import Hailing from './routes/CarHailing/Hailing.jsx'
 import Rentals from './routes/Rentals/Rentals.jsx'
 import Sales from './routes/Sales/Sales.jsx'
+import Page from './routes/Sales/ID/Page.jsx'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/hailing' element={<Hailing />}/>
         <Route path='/rentals' element={<Rentals />}/>
         <Route path='/sales' element={<Sales />}/>
+        <Route path='/sales/:id' element={<Page />}/>
       </Routes>
     </Router>
 )

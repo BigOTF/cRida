@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import carData from '../../data/CarData'
 
 import { FaCarSide } from "react-icons/fa";
@@ -67,7 +68,7 @@ const FeaturedCars = () => {
                             </div>
 
                             <div className='bg-[#5810BF] w-[190px] h-[49px] rounded-[8px] p-[8px] text-center place-content-center'>
-                                <a className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px]'>Check Out</a>
+                                <Link to={`/sales/${data.id}`} className='text-[#F5F5F5] nunito-400 text-[24px] leading-[32.74px] cursor-pointer'>Check Out</Link>
                             </div>
 
                         </div>

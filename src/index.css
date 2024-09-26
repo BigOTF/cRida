@@ -86,6 +86,13 @@
     background-position: center;
 }
 
+.pageIDHero {
+    background-image: url('/pageID.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .aboutUsImage2 {
     background-image: url('/AboutUsImage2.png');
     background-size: cover;
